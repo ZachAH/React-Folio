@@ -1,14 +1,15 @@
 import React from 'react';
-import coverImage from '../../assets/cover-image.jpg';
+import '../Header/style.css';
 
 function Header(props) {
 
   return (
     <header className="flex-row space-between px-1">
-      <h1>Lernantino</h1>
-      <img src={coverImage} alt="wooden background"></img>
+      <h1>Zachary Howell</h1>
       {props.children}
     </header>
+
+
   );
 }
 

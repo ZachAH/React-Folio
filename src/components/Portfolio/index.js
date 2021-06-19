@@ -6,7 +6,7 @@ function Portfolio() {
   // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
-      name: 'planter',
+      name: 'Just-Plant-It',
       description: 'MERN Stack',
       link: "https://github.com",
       repo: "https://github.com"
