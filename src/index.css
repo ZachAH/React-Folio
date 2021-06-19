@@ -5,11 +5,11 @@ main {
 }
 :root {
   --primary: #8c54ff;
-  --secondary: #31343D;
+  --secondary: #E15554;
   --tertiary: #b12704;
   --light: #D4F4DD;
-  --dark:  #E15554;
-  --darker: #0E7C7B;
+  --dark:  #17BEBB;
+  --darker: #454545;
   --alpha: rgba(255,255,255,.7);
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -24,6 +24,7 @@ main {
 html,
 body {
   min-height: 100%;
+  background-image: url(./assets/backgroundimage2.jpg);
 }
 
 body {
@@ -33,7 +34,6 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--darker);
   color: var(--light);
   font-family: 'Open Sans', sans-serif;
 }
@@ -94,7 +94,7 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  /* background: var(--dark); */
 }
 
 header a {

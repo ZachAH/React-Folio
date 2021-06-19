@@ -5,34 +5,33 @@ import Page from "./components/Page";
 import Footer from "./components/Footer";
 
 
-
 function App() {
   const [pages] = useState([
     {
-      name: "about me"
+      name: "about me",
     },
     { name: "portfolio" },
     { name: "contact" },
     {
-      name: "resume"
-    }
+      name: "resume",
+    },
   ]);
 
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
     <div>
-      <Header>
-        <Nav
-          pages={pages}
-          setCurrentPage={setCurrentPage}
-          currentPage={currentPage}
-        ></Nav>
-      </Header>
-      <main>
-        <Page currentPage={currentPage}></Page>
-      </main>
-      <Footer />
+        <Header>
+          <Nav
+            pages={pages}
+            setCurrentPage={setCurrentPage}
+            currentPage={currentPage}
+          ></Nav>
+        </Header>
+        <main>
+          <Page currentPage={currentPage}></Page>
+        </main>
+        <Footer />
     </div>
   );
 }
