@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Page from "./components/Page";
 import Footer from "./components/Footer";
-
+import ParticlesBackground from "./ParticleBackground";
 
 function App() {
   const [pages] = useState([
@@ -29,6 +29,7 @@ function App() {
           ></Nav>
         </Header>
         <main>
+        <ParticlesBackground></ParticlesBackground>
           <Page currentPage={currentPage}></Page>
         </main>
         <Footer />
