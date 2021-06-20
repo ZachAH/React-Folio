@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import ParticlesBackground from './ParticleBackground';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
+    <ParticlesBackground>
     <App />
+    </ParticlesBackground>
   </React.StrictMode>,
   document.getElementById('root')
 );

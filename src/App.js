@@ -29,7 +29,6 @@ function App() {
           ></Nav>
         </Header>
         <main>
-        <ParticlesBackground></ParticlesBackground>
           <Page currentPage={currentPage}></Page>
         </main>
         <Footer />
