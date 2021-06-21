@@ -5,10 +5,10 @@ main {
 }
 :root {
   --primary: #8c54ff;
-  --secondary: #E15554;
+  --secondary: #D4DCFF;
   --tertiary: #b12704;
-  --light: #D4F4DD;
-  --dark:  #17BEBB;
+  --light: white;
+  --dark:  #white;
   --darker: #454545;
   --alpha: rgba(255,255,255,.7);
   --error: rgb(228, 46, 1);
@@ -24,7 +24,7 @@ main {
 html,
 body {
   min-height: 100%;
-  background-image: url(./assets/backgroundimage2.jpg);
+  background: linear-gradient(#283048, #859398)
 }
 
 body {
@@ -35,7 +35,7 @@ body {
   font-size: 18px;
   letter-spacing: 0.1em;
   color: var(--light);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 h1,
@@ -44,7 +44,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Aladin', cursive;
+  font-family: 'Yellowtail', cursive;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -93,9 +93,7 @@ a:hover {
   transition: all .2s ease-in-out;
 }
 
-header {
-  /* background: var(--dark); */
-}
+
 
 header a {
   color: var(--light);
@@ -178,7 +176,7 @@ header h1 {
 
 nav {
   position: relative;
-  font-family: 'Aladin', cursive;
+  font-family: 'Oswald', sans-serif;
   font-size: 2.5rem;
   margin: 30px 20px;
   color: var(--dark);

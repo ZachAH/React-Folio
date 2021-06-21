@@ -1,7 +1,5 @@
 import React from 'react';
 import ParticlesBackground from '../Particles/ParticleBackground';
-import '../Header/style.css';
-<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,800&display=swap" rel="stylesheet"></link>
 
 function Header(props) {
 
