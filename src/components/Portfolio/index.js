@@ -35,6 +35,12 @@ function Portfolio() {
       link: "https://github.com",
       repo: "https://github.com"
     },
+    {
+      name: 'dice-game',
+      description: 'React/JavaScript/CSS',
+      link: "https://suspicious-hamilton-885333.netlify.app/",
+      repo: "https://github.com"
+    },
   ]);
 
   return (
