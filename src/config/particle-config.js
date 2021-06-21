@@ -46,7 +46,7 @@ const particlesConfig = {
         }
       },
       "line_linked": {
-        "enable": true,
+        "enable": false,
         "distance": 150,
         "color": "#ffffff",
         "opacity": 0.4,
@@ -54,7 +54,7 @@ const particlesConfig = {
       },
       "move": {
         "enable": true,
-        "speed": 6,
+        "speed": 2,
         "direction": "none",
         "random": false,
         "straight": false,

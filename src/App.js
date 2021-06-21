@@ -21,6 +21,16 @@ function App() {
 
   return (
     <div>
+      <ParticlesBackground />
+      <div
+      style={{
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%"
+      }}
+      >
         <Header>
           <Nav
             pages={pages}
@@ -32,6 +42,7 @@ function App() {
           <Page currentPage={currentPage}></Page>
         </main>
         <Footer />
+      </div>  
     </div>
   );
 }
