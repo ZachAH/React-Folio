@@ -150,6 +150,7 @@ input {
 input:focus {
   border: 1px solid var(--secondary);
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+
 }
 
 label {
@@ -313,7 +314,7 @@ textarea {
 }
 
 .project-text {
-    color: var(--secondary);
+    color: white;
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -326,8 +327,8 @@ textarea {
 }
 
 .project-text:hover {
-  background-color: var(--alpha);
-  opacity: 1;
+  background-color: black;
+  opacity: .9;
   border: 10px solid var(--secondary);
 }
 
@@ -343,7 +344,7 @@ textarea {
 }
 
 .project-text a:hover {
-  color: var(--darker);
+  color: white;
 }
 
 .navActive {

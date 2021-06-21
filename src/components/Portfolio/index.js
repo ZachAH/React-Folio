@@ -19,13 +19,13 @@ function Portfolio() {
     },
     {
       name: 'house-it',
-      description: 'HTML/CSS',
+      description: 'MERN Stack',
       link: "https://github.com",
       repo: "https://github.com"
     },
     {
       name: 'tic-tac-toe',
-      description: 'Node/IoT',
+      description: 'React/JavaScript/CSS',
       link: "https://github.com",
       repo: "https://github.com"
     },
@@ -37,7 +37,7 @@ function Portfolio() {
     },
     {
       name: 'dice-game',
-      description: 'React/JavaScript/CSS',
+      description: 'JavaScript/CSS',
       link: "https://suspicious-hamilton-885333.netlify.app/",
       repo: "https://github.com"
     },
