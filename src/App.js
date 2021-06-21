@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Page from "./components/Page";
 import Footer from "./components/Footer";
-import ParticlesBackground from "./ParticleBackground";
+import ParticlesBackground from "./components/Particles/ParticleBackground";
 
 function App() {
   const [pages] = useState([
@@ -20,18 +20,8 @@ function App() {
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
-    <div>
-      <ParticlesBackground />
-      <div
-      style={{
-        position: "absolute",
-        top: 0,
-        left: 0,
-        width: "100%",
-        height: "100%"
-      }}
-      >
-        <Header>
+      <div >
+        <Header>   
           <Nav
             pages={pages}
             setCurrentPage={setCurrentPage}
@@ -43,7 +33,6 @@ function App() {
         </main>
         <Footer />
       </div>  
-    </div>
   );
 }
 
