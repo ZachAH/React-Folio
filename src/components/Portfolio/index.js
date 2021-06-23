@@ -7,21 +7,21 @@ function Portfolio() {
   const [projects] = useState([
     {
       name: 'Just-Plant-It',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      description: 'JavaScript/Bootstrap/Express/Restful API',
+      link: "https://blooming-brook-59963.herokuapp.com/",
+      repo: "https://github.com/ZachAH/Just-Plant-It-"
     },
     {
       name: 'crown-clothing',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      description: 'React/Redux/GraphQL/Firebase',
+      link: "https://crown-jewels-lives.herokuapp.com/",
+      repo: "https://github.com/ZachAH/Crown-Clothing"
     },
     {
       name: 'house-it',
       description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      link: "https://house-it.herokuapp.com/",
+      repo: "https://github.com/ZachAH/House-It-"
     },
     {
       name: 'tic-tac-toe',
@@ -31,15 +31,15 @@ function Portfolio() {
     },
     {
       name: 'weather-app',
-      description: 'React/JavaScript/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      description: 'React/JavaScript/Openweathermap.org API/CSS',
+      link: "https://zachsreactfulweather.netlify.app/",
+      repo: "https://github.com/ZachAH/Reactful-Weather"
     },
     {
       name: 'dice-game',
       description: 'JavaScript/CSS',
       link: "https://suspicious-hamilton-885333.netlify.app/",
-      repo: "https://github.com"
+      repo: "https://github.com/ZachAH/pig-game"
     },
   ]);
 
