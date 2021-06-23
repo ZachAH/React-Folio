@@ -7,13 +7,13 @@ function Portfolio() {
   const [projects] = useState([
     {
       name: 'Just-Plant-It',
-      description: 'JavaScript/Bootstrap/Express/Restful API',
+      description: 'JavaScript/Express/Restful API',
       link: "https://blooming-brook-59963.herokuapp.com/",
       repo: "https://github.com/ZachAH/Just-Plant-It-"
     },
     {
       name: 'crown-clothing',
-      description: 'React/Redux/GraphQL/Firebase',
+      description: 'React/GraphQL',
       link: "https://crown-jewels-lives.herokuapp.com/",
       repo: "https://github.com/ZachAH/Crown-Clothing"
     },
@@ -25,13 +25,13 @@ function Portfolio() {
     },
     {
       name: 'tic-tac-toe',
-      description: 'React/JavaScript/CSS',
+      description: 'React/JavaScript',
       link: "https://react-tac-toast.netlify.app/",
       repo: "https://github.com/ZachAH/react-tac-toe"
     },
     {
       name: 'weather-app',
-      description: 'React/JavaScript/Openweathermap.org API/CSS',
+      description: 'React/JavaScript/API',
       link: "https://zachsreactfulweather.netlify.app/",
       repo: "https://github.com/ZachAH/Reactful-Weather"
     },
