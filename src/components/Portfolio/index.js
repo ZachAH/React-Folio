@@ -26,8 +26,8 @@ function Portfolio() {
     {
       name: 'tic-tac-toe',
       description: 'React/JavaScript/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      link: "https://react-tac-toast.netlify.app/",
+      repo: "https://github.com/ZachAH/react-tac-toe"
     },
     {
       name: 'weather-app',
