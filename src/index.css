@@ -162,7 +162,8 @@ li {
 }
 
 header {
-  height: 350px;
+  height: 100vh;
+  width: 100vw;
   position: relative;
   overflow: hidden;
   z-index: 2;
@@ -247,6 +248,7 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  flex: 1;
 }
 
 .space-between {
