@@ -231,6 +231,12 @@ textarea {
   border-radius: 25px;
 }
 
+.yahoo:hover {
+  color: black;
+  cursor: pointer;
+}
+
+
 .container {
   width: 85%;
   max-width: 1200px;
