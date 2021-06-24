@@ -11,7 +11,7 @@ function App() {
       name: "about",
     },
     { name: "portfolio" },
-    { name: "contact Me" },
+    { name: "contact" },
     {
       name: "resume",
     },
