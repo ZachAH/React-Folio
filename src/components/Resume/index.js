@@ -7,7 +7,7 @@ function Resume() {
       <p>
         Download my <a href="/images/Resume.pdf" download>Resume</a>
         </p>
-        <h3>Front-end Skill and Technologies</h3>
+        <h3>Front-end Skills and Technologies</h3>
         <ul className="skills">
           <li>HTML</li>
           <li>CSS</li>
